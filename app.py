@@ -20,7 +20,7 @@ import pickle
 
 
 # Create an app object using the Flask class.
-app = get_optionFlask(__name__, template_folder='template')
+app = Flask(__name__, template_folder='template')
 
 # In[3]:
 
